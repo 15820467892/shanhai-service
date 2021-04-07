@@ -1,0 +1,5 @@
+com\shanhai\service\fallback\VideoServiceFallback.class
+com\shanhai\service\VideoService.class
+com\shanhai\OrderApplication.class
+com\shanhai\controller\OrderController.class
+com\shanhai\config\ShanhaiBlockExceptionHandler.class
