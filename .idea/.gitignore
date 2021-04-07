@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../:\学习\SpringCloud Alibaba\2020年springcloud alibaba课程源码\2020年springcloud alibaba课程源码\第14章\第3集\xdclass-cloud\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
