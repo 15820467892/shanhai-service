@@ -1,2 +1,2 @@
-net\xdclass\filter\UserGlobalFilter.class
-net\xdclass\GatewayApplication.class
+com\shanhai\filter\UserGlobalFilter.class
+com\shanhai\GatewayApplication.class

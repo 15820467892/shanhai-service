@@ -1,5 +1,5 @@
-D:\code\shanhai\shanhai-service\shanhai-video-service\src\main\java\net\xdclass\controller\VideoController.java
-D:\code\shanhai\shanhai-service\shanhai-video-service\src\main\java\net\xdclass\dao\VideoMapper.java
-D:\code\shanhai\shanhai-service\shanhai-video-service\src\main\java\net\xdclass\VideoApplication.java
-D:\code\shanhai\shanhai-service\shanhai-video-service\src\main\java\net\xdclass\service\impl\VideoServiceImpl.java
-D:\code\shanhai\shanhai-service\shanhai-video-service\src\main\java\net\xdclass\service\VideoService.java
+D:\git2\shanhai-service\shanhai-video-service\src\main\java\com\shanhai\service\VideoService.java
+D:\git2\shanhai-service\shanhai-video-service\src\main\java\com\shanhai\service\impl\VideoServiceImpl.java
+D:\git2\shanhai-service\shanhai-video-service\src\main\java\com\shanhai\controller\VideoController.java
+D:\git2\shanhai-service\shanhai-video-service\src\main\java\com\shanhai\VideoApplication.java
+D:\git2\shanhai-service\shanhai-video-service\src\main\java\com\shanhai\dao\VideoMapper.java

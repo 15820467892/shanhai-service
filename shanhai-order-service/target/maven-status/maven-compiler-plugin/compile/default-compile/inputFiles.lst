@@ -1,5 +1,5 @@
-D:\code\shanhai\shanhai-service\shanhai-order-service\src\main\java\net\xdclass\service\VideoService.java
-D:\code\shanhai\shanhai-service\shanhai-order-service\src\main\java\net\xdclass\config\XdclassBlockExceptionHandler.java
-D:\code\shanhai\shanhai-service\shanhai-order-service\src\main\java\net\xdclass\controller\OrderController.java
-D:\code\shanhai\shanhai-service\shanhai-order-service\src\main\java\net\xdclass\OrderApplication.java
-D:\code\shanhai\shanhai-service\shanhai-order-service\src\main\java\net\xdclass\service\fallback\VideoServiceFallback.java
+D:\git2\shanhai-service\shanhai-order-service\src\main\java\com\shanhai\OrderApplication.java
+D:\git2\shanhai-service\shanhai-order-service\src\main\java\com\shanhai\controller\OrderController.java
+D:\git2\shanhai-service\shanhai-order-service\src\main\java\com\shanhai\service\VideoService.java
+D:\git2\shanhai-service\shanhai-order-service\src\main\java\com\shanhai\config\ShanhaiBlockExceptionHandler.java
+D:\git2\shanhai-service\shanhai-order-service\src\main\java\com\shanhai\service\fallback\VideoServiceFallback.java

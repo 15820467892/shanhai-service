@@ -1,5 +1,0 @@
-net\xdclass\service\VideoService.class
-net\xdclass\OrderApplication.class
-net\xdclass\service\fallback\VideoServiceFallback.class
-net\xdclass\config\XdclassBlockExceptionHandler.class
-net\xdclass\controller\OrderController.class

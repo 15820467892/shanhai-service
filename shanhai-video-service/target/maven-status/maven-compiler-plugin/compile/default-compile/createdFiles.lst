@@ -1,5 +1,5 @@
-net\xdclass\service\VideoService.class
-net\xdclass\VideoApplication.class
-net\xdclass\controller\VideoController.class
-net\xdclass\dao\VideoMapper.class
-net\xdclass\service\impl\VideoServiceImpl.class
+com\shanhai\service\VideoService.class
+com\shanhai\controller\VideoController.class
+com\shanhai\VideoApplication.class
+com\shanhai\dao\VideoMapper.class
+com\shanhai\service\impl\VideoServiceImpl.class
