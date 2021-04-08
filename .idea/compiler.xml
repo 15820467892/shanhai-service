@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="shanhai-vuln-service" />
+        <module name="shanhai-oss-service" />
         <module name="shanhai-api-gateway" />
         <module name="shanhai-common" />
-        <module name="shanhai-order-service" />
         <module name="shanhai-user-service" />
-        <module name="shanhai-video-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

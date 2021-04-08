@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>shanhai-common</module>
-        <module>shanhai-video-service</module>
+        <module>shanhai-oss-service</module>
         <module>shanhai-user-service</module>
-        <module>shanhai-order-service</module>
+        <module>shanhai-vuln-service</module>
         <module>shanhai-api-gateway</module>
     </modules>
 

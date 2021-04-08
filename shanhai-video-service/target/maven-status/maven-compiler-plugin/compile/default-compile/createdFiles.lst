@@ -1,5 +1,0 @@
-com\shanhai\service\VideoService.class
-com\shanhai\controller\VideoController.class
-com\shanhai\VideoApplication.class
-com\shanhai\dao\VideoMapper.class
-com\shanhai\service\impl\VideoServiceImpl.class
