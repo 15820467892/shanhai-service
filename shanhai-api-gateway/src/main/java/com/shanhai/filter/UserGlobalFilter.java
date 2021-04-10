@@ -9,11 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
-/**
- * @Description 旭瑶&小滴课堂 xdclass.net
- * @Author 二当家小D  代码、笔记和技术指导联系我即可
- * @Version 1.0
- **/
+
 
 //@Component
 public class UserGlobalFilter implements GlobalFilter, Ordered {
