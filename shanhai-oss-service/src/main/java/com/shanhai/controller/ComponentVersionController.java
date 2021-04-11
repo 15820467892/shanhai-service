@@ -24,8 +24,16 @@ public class ComponentVersionController {
     @RequestMapping("find")
     public Object findById(int versionId, HttpServletRequest request){
         ComponentVersion componentVersion = componentVersionService.findById(versionId);
-        return componentVersion;
+        return JsonData.buildSuccess(componentVersion);
     }
+
+    @RequestMapping("findgav")
+    public Object findGav(String groupId, String artifactId, String version , HttpServletRequest request){
+        ComponentVersion componentVersion = componentVersionService.findByGAV(groupId,artifactId,version);
+        return JsonData.buildSuccess(componentVersion);
+    }
+
+
 
     @PostMapping("publish")
     public JsonData addOrUpdate(@RequestBody ComponentVersion componentVersion){

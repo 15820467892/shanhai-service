@@ -44,6 +44,4 @@ public class ComponentVersionServiceImpl implements ComponentVersionService {
     public int update(ComponentVersion version) {
         return componentVersionMapper.update(version);
     }
-
-
 }
