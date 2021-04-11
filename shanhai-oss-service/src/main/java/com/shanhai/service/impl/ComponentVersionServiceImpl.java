@@ -6,6 +6,8 @@ import com.shanhai.service.ComponentVersionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
+
 
 @Service
 public class ComponentVersionServiceImpl implements ComponentVersionService {
@@ -19,9 +21,28 @@ public class ComponentVersionServiceImpl implements ComponentVersionService {
     }
 
     @Override
+    public ComponentVersion findByGAV(String groupId, String artifactId, String version) {
+        return componentVersionMapper.findByGAV(groupId,artifactId,version);
+    }
+
+    @Override
     public int addOrUpdate(ComponentVersion componentVersion) {
-        //TODO ：判断是否存在，基于三坐标
-        return componentVersionMapper.insert(componentVersion);
+
+        ComponentVersion versionExist=componentVersionMapper.findByGAV(componentVersion.getGroupId(),componentVersion.getArtifactId(),componentVersion.getVersion());
+        componentVersion.setUpdateDate(new Date());
+        if(versionExist==null){
+            componentVersion.setCreateDate(new Date());
+            return componentVersionMapper.insert(componentVersion);  //新增
+        }
+        else{
+            componentVersion.setCreateDate(versionExist.getCreateDate());
+            return componentVersionMapper.update(componentVersion);
+        }
+    }
+
+    @Override
+    public int update(ComponentVersion version) {
+        return componentVersionMapper.update(version);
     }
 
 

@@ -29,11 +29,10 @@ public class ComponentVersionController {
 
     @PostMapping("publish")
     public JsonData addOrUpdate(@RequestBody ComponentVersion componentVersion){
-        componentVersion.setCreateDate(new Date());
-        componentVersion.setUpdateDate(new Date());
+
         if(componentVersionService.addOrUpdate(componentVersion)==1){
-            return JsonData.buildSuccess("success,1 row");
+            return JsonData.buildSuccess("success");
         }
-        return JsonData.buildError("fail："+componentVersion.toString());
+        return JsonData.buildError("fail:"+componentVersion.toString());
     }
-}d
+}

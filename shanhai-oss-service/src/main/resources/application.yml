@@ -15,6 +15,7 @@
 #    nacos:
 #      discovery:
 #        server-addr: 47.119.158.204:8848
+#
 #    sentinel:
 #      transport:
 #        dashboard: 47.119.158.204:8858
@@ -44,3 +45,4 @@
 #feign:
 #  sentinel:
 #    enabled: true
+#
