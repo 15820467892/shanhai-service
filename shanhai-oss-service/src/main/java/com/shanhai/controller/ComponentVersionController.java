@@ -2,15 +2,13 @@ package com.shanhai.controller;
 
 
 import com.shanhai.domain.ComponentVersion;
-import com.shanhai.domain.Video;
 import com.shanhai.service.ComponentVersionService;
 
-import com.shanhai.utils.JsonData;
+import utils.JsonData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.Date;
 
 
 @RestController

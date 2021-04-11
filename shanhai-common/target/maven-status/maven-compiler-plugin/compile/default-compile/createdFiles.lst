@@ -1,3 +1,7 @@
 com\shanhai\domain\User.class
-com\shanhai\domain\VideoOrder.class
 com\shanhai\domain\Video.class
+com\shanhai\domain\VideoOrder.class
+com\shanhai\domain\ComponentVersion.class
+com\shanhai\domain\Component.class
+com\shanhai\domain\Software.class
+utils\JsonData.class

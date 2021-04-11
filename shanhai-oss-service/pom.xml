@@ -86,7 +86,7 @@
 
 
     <build>
-        <finalName>alibaba-cloud-order</finalName>
+        <finalName>oss</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

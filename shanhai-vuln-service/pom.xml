@@ -77,7 +77,7 @@
 
 
     <build>
-        <finalName>alibaba-cloud-video</finalName>
+        <finalName>vuln</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

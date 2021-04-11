@@ -10,7 +10,7 @@
     <modules>
         <module>shanhai-common</module>
         <module>shanhai-oss-service</module>
-        <module>shanhai-user-service</module>
+<!--        <module>shanhai-user-service</module>-->
         <module>shanhai-vuln-service</module>
         <module>shanhai-api-gateway</module>
     </modules>
@@ -21,7 +21,6 @@
 
 
     <properties>
-
         <java.version>11</java.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>

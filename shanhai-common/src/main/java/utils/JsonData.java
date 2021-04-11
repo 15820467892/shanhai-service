@@ -1,4 +1,4 @@
-package com.shanhai.utils;
+package utils;
 
 public class JsonData {
     private int code;
