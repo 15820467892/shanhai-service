@@ -13,6 +13,8 @@
 <!--        <module>shanhai-user-service</module>-->
         <module>shanhai-vuln-service</module>
         <module>shanhai-api-gateway</module>
+        <module>demo-service</module>
+        <module>shanhai-demo-service</module>
     </modules>
 
 

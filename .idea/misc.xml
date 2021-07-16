@@ -9,6 +9,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/demo-service/pom.xml" />
         <option value="$PROJECT_DIR$/shanhai-user-service/pom.xml" />
       </set>
     </option>

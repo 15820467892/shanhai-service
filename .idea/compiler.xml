@@ -10,9 +10,11 @@
         <module name="shanhai-oss-service" />
         <module name="shanhai-api-gateway" />
         <module name="shanhai-common" />
+        <module name="shanhai-demo-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
+      <module name="demo-service" target="11" />
       <module name="shanhai-user-service" target="11" />
     </bytecodeTargetLevel>
   </component>
